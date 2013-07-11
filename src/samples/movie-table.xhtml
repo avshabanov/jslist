@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Movie table</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<!-- css -->
+	<link href="css/base.css" rel="stylesheet" type="text/css" />
+	<link href="css/movie-table/movie-table.css" rel="stylesheet" type="text/css" />
+	<!-- js  -->
+    <script type="text/javascript" src="js/css-browser-selector.js" />
+	<script type="text/javascript" src="../common/js/base.js" />
+    <script type="text/javascript" src="../common/js/data-model.js" />
+    <script type="text/javascript" src="js/movie-db-datasource.js" />
+	<script type="text/javascript" src="js/movie-table/logic.js" />
+</head>
+
+<body>
+    <div class="browser-logo" />
+    <p id="jb-table-title" class="container-title">title</p>
+    <!-- holder for enclosed table -->
+	<div class="table-holder container common-pad">
+		<table>
+			<thead>
+				<th scope="col">&nbsp;</th>
+				<th scope="col">#</th>
+				<th scope="col">Film Title</th>
+				<th scope="col">Artist</th>
+				<th scope="col">&nbsp;</th>
+				<th scope="col">Duration</th>
+			</thead>
+			<tbody id="jb-list">
+				<!-- item template -->
+				<tr class="jb-item">
+					<td />
+					<td><span class="jb-pos">0</span>.</td>
+					<td><div class="jb-title">Title</div></td>
+					<td><div class="jb-actor">Artist</div></td>
+					<td />
+					<td><span><span class="jb-duration">0</span> min</span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+    <!-- table navigation pane -->
+    <div class="nav-pane-holder container common-pad">
+        <ul id="jb-nav-buttons">
+            <li>1</li>
+            <li>2</li>
+            <li>22</li>
+        </ul>
+    </div>
+</body>
+</html>

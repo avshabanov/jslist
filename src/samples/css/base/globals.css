@@ -1,0 +1,7 @@
+
+/* all the markup elements relied on the fact that defaults for margin/padding are zero */
+*
+{
+    padding: 0;
+    margin: 0;
+}

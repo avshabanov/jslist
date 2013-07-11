@@ -1,0 +1,97 @@
+
+#list-holder
+{
+	background-color: #E0E0E0;
+    height: 400px;
+    width: 640px;
+    padding: 5px 7px 5px 7px;
+    margin-top: 10px;
+}
+
+#jb-scrollbar-holder
+{
+	float: right;
+	margin-left: 5px;
+	width: 12px;
+	height: 100%;
+	background-color: #BBBBBB;
+}
+
+.jb-scrollbar-thumb
+{
+	height: 20%;
+	background-color: #888888;
+	position: relative;
+}
+
+#jb-list
+{
+	height: 100%;
+	/*border: 2px solid red;*/
+}
+
+.jb-item
+{
+    background-color: #FFFFFF;
+    padding-right: 10px;
+    height: 36px;
+    /*clear: both;*/   
+    padding-left: 10px;
+    padding-top: 4px;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+/* FIXME: odd/even nodes style states does not work for now!!!
+ 
+.jb-movie-item:nth-child(even)
+{
+    background-color: #F0F0F0;
+}*/
+
+.jb-item:hover
+{
+    background-color: #555555;
+}
+
+.jb-item p
+{
+    color: #222222;
+}
+
+.jb-item:hover p
+{
+    color: #F0F0F0;
+}
+
+.jb-item:hover .right-info .jb-link
+{
+    color: #33FFFF;
+}
+
+.right-info .jb-link
+{
+    color: #3366CC;
+}
+
+.jb-item:last-child
+{
+    border-bottom: none;
+}
+
+.left-info
+{
+    float: left;
+}
+
+.jb-title
+{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.right-info
+{
+    font-weight: normal;
+    float: right;
+    text-align: right;
+}

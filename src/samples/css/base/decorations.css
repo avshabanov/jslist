@@ -1,0 +1,96 @@
+
+/*
+ * defines decoration elements that are common for each sample page
+ */
+
+
+body
+{
+    font-family: sans-serif;
+	padding-left: 10px;
+    padding-top: 12px;
+    padding-right: 10px;
+    cursor: default;
+}
+
+p
+{
+    font-size: 12px;
+}
+
+a
+{
+    font-size: 12px;
+}
+
+
+.browser-logo
+{
+    background: #ff0000;
+    width: 64px;
+    height: 64px;
+    float: right;
+}
+
+.container-title
+{
+	font-size: 18px;
+    font-weight: bolder;
+    margin-left: 4px;
+    color: #FF8040;
+}
+
+/*
+ * browser-specific definitions
+ */
+
+
+
+/*
+ * gecko-specific
+ */
+
+.gecko body
+{
+    -moz-user-select: none;
+}
+
+.gecko .browser-logo
+{
+    background: url(../../media/gecko-logo-small.png) no-repeat;
+}
+
+.gecko .container
+{
+    -moz-border-radius: 5px;    
+}
+
+.gecko .scrollbar-thumb
+{
+    -moz-border-radius: 4px;
+}
+
+/*
+ * webkit-specific
+ */
+
+.webkit body
+{
+    -webkit-user-select: none;
+}
+
+.webkit .browser-logo
+{
+    background: url(../../media/webkit-logo-small.png) no-repeat;
+}
+
+.webkit .container
+{
+    -webkit-border-radius: 5px; 
+}
+
+.webkit .scrollbar-thumb
+{
+    -webkit-border-radius: 4px;
+}
+

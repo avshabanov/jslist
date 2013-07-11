@@ -1,0 +1,109 @@
+
+/* common control for pads (table holder and table navigation pane) */
+.common-pad
+{
+    background-color: #E0E0E0;
+    padding: 5px 7px 5px 7px;
+    width: 400px;
+}
+
+.table-holder
+{
+    height: 320px;
+    margin-top: 10px;
+}
+
+.nav-pane-holder
+{
+    margin-top: 10px;
+}
+
+.nav-pane-holder ul
+{
+    list-style: none;
+    height: 27px;
+}
+
+.nav-pane-holder ul li
+{
+    float: left;
+    margin-right: 3px;
+    padding: 3px 7px 3px 6px;
+    background: #FFFFFF;
+    display: list-item;
+    -webkit-border-radius: 5px;
+    border: #444444 solid 1px;
+}
+
+.nav-pane-holder ul li:hover
+{
+    background: #444444;
+    color: #FFFFFF;
+}
+
+table
+{
+	background: #EEEEEE;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	overflow: hidden;
+}
+
+th
+{
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+    padding: 4px;
+    font-size: 16px;
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #aaa;
+}
+
+td
+{
+	border-bottom: 1px solid #bbb;
+	font-size: 14px;
+    padding: 5px;
+}
+
+tr:hover
+{
+    background-color: #444;
+    color: #fff;
+}
+
+.jb-selected-item
+{
+    background-color: #F09000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.jb-selected-item:hover
+{
+    background-color: #FF9900;
+    color: #fff;
+}
+
+/* generic settings for div enclosed to the table cell (ellipsis, no wrapping, etc.) */
+table td div
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* for variable-width item (title cell) */
+.jb-title
+{
+	width: 140px;
+}
+
+/* for variable-width item (actor cell) */
+.jb-actor
+{
+    width: 110px;
+}
